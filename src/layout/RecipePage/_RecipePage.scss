@@ -1,0 +1,31 @@
+@import '../../stylesheets/base/media-queries';
+@import '../../stylesheets/base/mixins';
+
+.recipe-page-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%; 
+  padding: 30px;
+  @include bp-small {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
+.recipe-page-feature,
+.recipe-page-container {
+  display: flex;
+  width: 100%;  
+}
+
+.recipe-page-feature h2 {
+  @include bp-small {
+    margin: 5px 0;
+  }
+}
+
+.recipe-page-container {
+  @include flex-col;
+}

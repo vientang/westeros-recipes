@@ -1,0 +1,14 @@
+@import '../../../stylesheets/base/media-queries';
+
+.user-info {
+  display: flex;
+  margin: 1em 0;
+  align-items: center;
+
+}
+
+.user-info p {
+  @include bp-medium {
+    font-size: 0.8em;
+  }
+}
