@@ -1,0 +1,82 @@
+@import '../../../stylesheets/base/media-queries';
+@import '../../../stylesheets/base/mixins';
+
+.recipe-card-group {
+  display: flex;
+  width: 100%;  
+}
+
+.recipe-card-group {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe-card {
+  @include box-shadow;
+  width: 48%;
+  padding: 0 1.3em;
+  margin: .5em;
+  border: 1px solid rgba(163,163,163,0.6);
+  border-radius: 5px; 
+  @include bp-medium {
+    width: 45%;
+    margin: 1em;
+  }
+  @include bp-small {
+    width: 100%;
+  }
+}
+
+.recipe-image {
+  @include box-shadow;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.recipe-gauge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.recipe-gauge span {
+  color: $secondary-color;
+  font-size: 0.8em;
+}
+
+.recipe-gauge p {
+  @include bp-xsmall {
+    font-size: 0.9em;
+  }
+  @include bp-small {
+    font-size: 0.9em;
+  }
+}
+
+.fa-heart.black {
+  color: black;
+}
+
+.fa-heart.red {
+  color: red;
+}
+
+.see-ingredients-container {
+  margin-bottom: 1em;
+  @include bp-medium {
+    text-align: center;
+  }
+  @include bp-small {
+    text-align: center;
+  }
+}
+
+.see-ingredients-text {
+  color: #00B7FF;
+  font-size: 0.9em; 
+}
+
+.see-ingredients-text:hover {
+  cursor: pointer;
+}

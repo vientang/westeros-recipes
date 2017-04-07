@@ -1,0 +1,6 @@
+# Node Modules
+node_modules
+npm-debug.log
+
+# Public directories and files
+public

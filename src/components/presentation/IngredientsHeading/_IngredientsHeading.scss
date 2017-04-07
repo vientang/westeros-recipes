@@ -1,0 +1,49 @@
+@import '../../../stylesheets/base/media-queries';
+
+.ingredients-heading {
+  display: flex;  
+  align-items: center;
+  @include bp-medium {
+    flex-direction: column-reverse;
+  }
+  @include bp-small {
+    flex-direction: column-reverse;
+  }
+}
+
+.ingredients-heading h4 {
+  flex-grow: 1;
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+
+.nutritional-data {
+  @include bp-medium {
+    display: flex;
+  }
+  @include bp-small {
+    display: flex;
+  }
+}
+
+.ingredients-heading .fa {
+  color: $secondary-color;
+  @include bp-large {
+    margin-left: 5px;    
+  }
+  @include bp-medium {
+    font-size: 0.7em;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  @include bp-small {
+    font-size: 0.8em;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  @include bp-xsmall {
+    font-size: 0.6em;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}

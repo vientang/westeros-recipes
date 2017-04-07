@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1491342365582" clover="3.2.0">
+  <project timestamp="1491342365583" name="All files">
+    <metrics statements="96" coveredstatements="20" conditionals="61" coveredconditionals="4" methods="30" coveredmethods="4" elements="187" coveredelements="28" complexity="0" loc="96" ncloc="96" packages="3" files="12" classes="12">
+      <package name="components.containers">
+        <metrics statements="72" coveredstatements="9" conditionals="39" coveredconditionals="1" methods="23" coveredmethods="2"/>
+        <file name="Login.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/components/containers/Login.js">
+          <metrics statements="18" coveredstatements="6" conditionals="4" coveredconditionals="1" methods="7" coveredmethods="2"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="15" count="2" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="17" count="2" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="47" count="3" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+        </file>
+        <file name="Rating.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/components/containers/Rating.js">
+          <metrics statements="24" coveredstatements="2" conditionals="23" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="40" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="59" count="0" type="cond" truecount="0" falsecount="5"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="65" count="0" type="stmt"/>
+        </file>
+        <file name="RecipeCard.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/components/containers/RecipeCard.js">
+          <metrics statements="22" coveredstatements="1" conditionals="10" coveredconditionals="0" methods="6" coveredmethods="0"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="56" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="60" count="0" type="stmt"/>
+          <line num="61" count="0" type="stmt"/>
+          <line num="110" count="2" type="stmt"/>
+        </file>
+        <file name="RecipesContainer.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/components/containers/RecipesContainer.js">
+          <metrics statements="8" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="17" count="0" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/components/containers/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="components.presentation">
+        <metrics statements="15" coveredstatements="6" conditionals="16" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <file name="Ingredients.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/components/presentation/Ingredients.js">
+          <metrics statements="6" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="18" count="0" type="stmt"/>
+          <line num="27" count="2" type="stmt"/>
+        </file>
+        <file name="IngredientsHeading.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/components/presentation/IngredientsHeading.js">
+          <metrics statements="4" coveredstatements="2" conditionals="12" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="20" count="2" type="stmt"/>
+        </file>
+        <file name="User.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/components/presentation/User.js">
+          <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="15" count="2" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/components/presentation/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="utils">
+        <metrics statements="9" coveredstatements="5" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="2"/>
+        <file name="APIManager.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/utils/APIManager.js">
+          <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+        </file>
+        <file name="Validate.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/utils/Validate.js">
+          <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="cond" truecount="2" falsecount="0"/>
+        </file>
+        <file name="index.js" path="/Users/vientang/Desktop/vientang-frontend-test/westeros-recipes/src/utils/index.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

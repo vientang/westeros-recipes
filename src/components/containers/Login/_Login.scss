@@ -1,0 +1,63 @@
+@import '../../../stylesheets/base/variables';
+@import '../../../stylesheets/base/media-queries';
+
+.login-component {
+  display: flex;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  @include bp-small {
+    margin-bottom: 1em;
+    justify-content: center;
+  }
+}
+
+.form-input { 
+  margin-left: .8em;
+  margin-right: .8em;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  padding: 2px 5px;
+  font-size: small;
+  width: 30%;
+  @include bp-xsmall {
+    width: 36%;
+    font-size: 0.7em;
+  }
+  @include bp-small {
+    width: 36%;
+    margin-left: .5em;
+    margin-right: .5em;
+    font-size: 0.9em;
+  }
+}
+
+.login-button {
+  background-color: $brand-color;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid $brand-color;
+  padding: 2px 5px;
+  font-size: small;
+}
+
+.login-button:hover {
+  background-color: darken( $brand-color, 2% );
+}
+
+.login-component span {
+  margin-left: 1em;
+  margin-top: .2em; 
+}
+
+.success {
+  color: $brand-color;
+}
+
+.failed {
+  color: red;
+  font-weight: bold;
+}

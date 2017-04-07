@@ -1,0 +1,30 @@
+@import '../../stylesheets/base/mixins';
+@import '../../stylesheets/base/media-queries';
+
+.header {
+  @include box-shadow;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+  align-items: center;
+  @include bp-xsmall {
+    flex-direction: column-reverse;
+  }
+  @include bp-small {
+    flex-direction: column-reverse;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-container h3 {
+  margin-left: 1em;
+}

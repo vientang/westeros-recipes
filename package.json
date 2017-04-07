@@ -1,0 +1,57 @@
+{
+  "name": "vientang-frontend-test",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "6.6.0"
+  },
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css",
+    "dev": "nodemon ./bin/www",
+    "build": "webpack -w",
+    "start": "concurrently 'npm run watch-css' 'npm run build' 'npm run dev' ",
+    "lint": "eslint src/**/*.js routes webpack.config.js app.js",
+    "test": "NODE_ENV=test jest --verbose",
+    "test-update": "npm run test -- -u",
+    "test-coverage": "npm run test -- -coverage"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "hjs": "0.0.6",
+    "morgan": "~1.7.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^4.0.0-beta.8",
+    "react-router-dom": "^4.0.0-beta.8",
+    "superagent": "^3.5.2",
+    "webpack": "^2.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "css-loader": "^0.27.3",
+    "enzyme": "^2.8.0",
+    "enzyme-to-json": "^1.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-config-standard-react": "^4.3.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-standard": "^2.1.1",
+    "jest": "^19.0.2",
+    "node-sass": "^4.5.1",
+    "nodemon": "^1.11.0",
+    "react-addons-test-utils": "^15.4.2",
+    "react-test-renderer": "^15.4.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.0"
+  }
+}

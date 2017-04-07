@@ -1,0 +1,31 @@
+@import 'base/media-queries';
+
+* {
+  box-sizing: border-box;  
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #404040;
+  @include bp-small {
+    padding: 10px;
+  }
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  margin: 0;
+  padding: 0; 
+}
+
+.fa {
+  margin-left: 10px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

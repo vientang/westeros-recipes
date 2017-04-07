@@ -1,0 +1,14 @@
+@import '../../../stylesheets/base/media-queries';
+
+.stars {
+  width: 20px;
+  height: 20px;
+  @include bp-small {
+    width: 15px;
+    height: 15px;
+  }
+  @include bp-xsmall {
+    width: 15px;
+    height: 15px;
+  }
+}
