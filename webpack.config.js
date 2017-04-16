@@ -14,14 +14,14 @@ module.exports = {
     publicPath: '/public/',
     historyApiFallback: true
   },
-  plugins: [
+  plugins: (process.env.NODE_ENV === 'production') ? [
     new webpack.optimize.UglifyJsPlugin({
       compressor: {
         warnings: false
       }
     }),
     new webpack.optimize.OccurrenceOrderPlugin()
-  ],
+  ] : [],
   module: {
     loaders: [
 			{enforce: 'pre', test: /\.js?$/, loader: 'eslint-loader', exclude: /node_modules/},
