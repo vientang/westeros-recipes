@@ -1,8 +1,8 @@
 import React from 'react'
-import { shallow, mount } from 'enzyme'
+import { shallow } from 'enzyme'
 import { shallowToJson } from 'enzyme-to-json'
-import { Login } from './index'
 import { Validate } from '../../../utils'
+import Login from './index'
 
 test('Login snapshot test', () => {
   const component = shallow(<Login />)
