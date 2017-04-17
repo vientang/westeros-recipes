@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-const empty = '/images/star_empty.png'
-const starred = '/images/star_filled.png'
+const empty = 'assets/star_empty.png'
+const starred = 'assets/star_filled.png'
 
 class Rating extends Component {
   constructor (props) {
