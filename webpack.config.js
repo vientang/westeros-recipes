@@ -26,7 +26,7 @@ module.exports = {
     loaders: [
 			{enforce: 'pre', test: /\.js?$/, loader: 'eslint-loader', exclude: /node_modules/},
 			{test: /\.js?$/, loader: 'babel-loader', exclude: /(node_modules)/, query: {presets: ['react', 'es2015']}},
-			{test: /(\.css|\.scss)$/, loaders: ['style-loader', 'css-loader', 'sass-loader']}
+			{test: /(\.css|\.scss)$/, loaders: ['isomorphic-style-loader', 'style-loader', 'css-loader', 'sass-loader']}
     ]
   }
 }
