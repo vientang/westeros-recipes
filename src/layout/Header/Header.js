@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className='header'>
       <section className='logo-container'>
-        <img className='logo' src='/images/hellofresh-logo.svg' />
+        <img className='logo' src='/assets/hellofresh-logo.svg' />
         <h3>Westeros Recipes</h3>
       </section>
       <section>
