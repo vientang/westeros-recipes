@@ -63,4 +63,4 @@ The original Webpack build file was 1.06mb (big) but after installing the Uglify
 Jest caches transformed module files to speed up test execution. The cache option in the npm test script is set to true. I've changed it to --no-cache because the transform script was changed and the changes weren't being recognized by Jest.
 
 #### The next version
-I had a lot of fun working on this project but there's still more to do. In the next version, I'd like to utilize React Router for client side routes, build a log-in page with OAuth, a slide in panel for log-in on mobile, and a carousel for the recipes so users don't need to scroll. 
+I had a lot of fun working on this project but there's still more to do. In the next version, I'd like to utilize React Router for client side routes, build a log-in page with OAuth, a slide in panel for log-in on mobile, and a carousel for the recipes so users don't need to scroll.

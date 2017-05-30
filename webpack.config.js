@@ -14,7 +14,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true
   },
-  resolve: {    
+  resolve: {
     extensions: ['.js', '.json']
   },
   plugins: (process.env.NODE_ENV === 'production') ? [
