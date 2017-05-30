@@ -10,11 +10,11 @@
     "watch-css": "./bin/watch-css",
     "build": "webpack -w",
     "build:prod": "NODE_ENV=production webpack -p",
-    "start": "NODE_ENV=app nodemon ./bin/www",
+    "start": "NODE_ENV=app NODE_PATH=src nodemon ./bin/www",
     "start:dev": "concurrently 'npm run watch-css' 'npm run build' 'npm run start' ",
     "start:prod": "concurrently 'npm run build-css' 'npm run build:prod' 'npm run start' ",
     "lint": "eslint src/**/*.js routes webpack.config.js app.js",
-    "test": "NODE_ENV=test jest --verbose",
+    "test": "NODE_ENV=test NODE_PATH=src jest --verbose --no-cache",
     "test-update": "npm run test -- -u",
     "test-coverage": "npm run test -- -coverage"
   },

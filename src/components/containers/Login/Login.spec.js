@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import { shallowToJson } from 'enzyme-to-json'
-import { Validate } from '../../../utils'
+import { Validate } from 'utils'
 import Login from './index'
 
 test('Login snapshot test', () => {

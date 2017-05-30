@@ -1,5 +1,5 @@
 import React from 'react'
-import { RecipesContainer } from '../../components/containers'
+import { RecipesContainer } from 'components/containers'
 
 const RecipePage = () => {
   return (

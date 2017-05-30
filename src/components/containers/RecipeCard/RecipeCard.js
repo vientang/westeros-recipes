@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
-import { Rating } from '../index'
-import { User, Ingredients, IngredientsHeading } from '../../presentation'
+import { Rating } from 'components/containers'
+import { User, Ingredients, IngredientsHeading } from 'components/presentation'
 
 class RecipeCard extends Component {
   constructor () {

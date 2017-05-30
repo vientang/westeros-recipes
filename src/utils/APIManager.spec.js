@@ -3,7 +3,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import { APIManager } from './index'
-import { RecipeCard } from '../components/containers'
+import { RecipeCard } from 'components/containers'
 
 test('APIManager should read data from api/recipes endpoint', () => {
   const url = '/api/recipes'

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Validate } from '../../../utils'
+import { Validate } from 'utils'
 
 class Login extends Component {
   constructor () {

@@ -2,7 +2,7 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import { shallowToJson } from 'enzyme-to-json'
 import { RecipeCard } from './index'
-import { APIManager } from '../../../utils'
+import { APIManager } from 'utils'
 
 test('RecipeCard should render a recipe card for each recipe', () => {
   APIManager.get('/api/recipes', null, (err, response) => {

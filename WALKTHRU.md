@@ -1,6 +1,16 @@
-A walkthrough of my solution
+## v1.0 
+1. Set up server with an api endpoint to recipes - /api/recipes
+2. Set up front end with React
+3. Build a simple log in component with form validation
+4. Build components to render the recipes, ingredients, and nutritional data
+5. Add a favorite feature where recipes can be favorited or unfavorited
+6. Add a rating feature where each recipe can be rated
+
+## v1.1
+1. Add unit tests and a Snapshot test with Jest
+2. Server side render initial page
+
 ----------------------------
-Here, I'll outline the goals and constraints, my decisions, challenges I faced, how I overcame those challenges, and what the next version would look like.
 
 The goal of this challenge is to build a recipe review area using the recipe data provided. It should be built using HTML5, CSS3, and a JS framework or vanilla JS. It should have two pages but I'll explain why I had combined it into one for now. 
 
@@ -18,7 +28,7 @@ Flexbox is awesome and I used it all over the place to design my card-based user
 
 My process with styling was to layout a few basic styles then test any new styles with Chrome's DevTools, using on the toggle device toolbar to apply styles on different devices. I also used the iOS Simulator from xCode just to be sure that the styles held true on mobile. 
 
-Finally, I bundled my CSS and SCSS files with Webpack. This modularizes the files using css-loader, style-loader, and sass-loader in Webpack. By doing so, there's one network request and page load is optimized because there's no to wait for the network request to load in the header. In reality, with one css file, it’s not a huge deal but I like to optimize where ever possible. 
+Finally, I build a Sass compiler and watcher as part of the task automation process. CSS and SCSS files are bundled in the build script with Webpack, improving latency because there's one network request. In reality, with one css file, it’s not a huge deal but this optimization didn't require much work so it was worth it. 
 
 #### Login
 
@@ -49,6 +59,8 @@ I set up an Express/Node server using Express Generator to allow me to create an
 With npm, running tasks is easy through the scripts command. The tasks that I’m using are compiling SASS to CSS, transpiling ES6 code, bundling files with Webpack, and starting the server. I used an npm package called concurrently to run all of these tasks, well, concurrently! Running commands concurrently through through npm scripts is possible too but I found that when one command wasn’t working, the others would still run and there wasn't a clear way of knowing if a script failed.
 
 The original Webpack build file was 1.06mb (big) but after installing the UglifyJS plugin, the build file was reduced to 281kb — about 75%! 
+
+Jest caches transformed module files to speed up test execution. The cache option in the npm test script is set to true. I've changed it to --no-cache because the transform script was changed and the changes weren't being recognized by Jest.
 
 #### The next version
 I had a lot of fun working on this project but there's still more to do. In the next version, I'd like to utilize React Router for client side routes, build a log-in page with OAuth, a slide in panel for log-in on mobile, and a carousel for the recipes so users don't need to scroll. 

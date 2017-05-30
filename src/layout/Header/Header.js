@@ -1,5 +1,5 @@
 import React from 'react'
-import { Login } from '../../components/containers'
+import { Login } from 'components/containers'
 
 const Header = () => {
   return (

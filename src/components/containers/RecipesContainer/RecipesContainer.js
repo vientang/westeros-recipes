@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { RecipeCard } from '../index'
-import { APIManager } from '../../../utils'
+import { RecipeCard } from 'components/containers'
+import { APIManager } from 'utils'
 
 class RecipesContainer extends Component {
   constructor () {
